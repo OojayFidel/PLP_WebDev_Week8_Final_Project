@@ -40,7 +40,11 @@ The website incorporates several key features to create a comprehensive and inte
 
 **Skip to Main Content Link:** For users navigating via keyboard.
 
-**Semantic HTML:** Proper use of <header>, <footer>, <main>, <nav>, and <section> tags.
+**Semantic HTML:** Proper use of 
+```
+<header>, <footer>, <main>, <nav>, and <section> tags
+
+```
 
 **ARIA Attributes:** Correct implementation of role, aria-modal, and aria-label for dynamic components like modals, ensuring they are usable with screen readers.
 
@@ -71,6 +75,8 @@ The project files are organized in a logical and intuitive manner:
 │   └── img/          # Project images, logos, etc.
 └── docs/
     └── resume.pdf    # CV/Résumé file
+
+```
 
 ## 5. Deployment
 The website is automatically deployed and hosted via GitHub Pages. Any push to the main branch of the GitHub repository triggers a new deployment, making updates efficient and simple.
