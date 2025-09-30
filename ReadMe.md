@@ -57,20 +57,20 @@ The website incorporates several key features to create a comprehensive and inte
 ## 4. Project Structure
 The project files are organized in a logical and intuitive manner:
 
-/
-├── index.html                # Home page
-├── bio.html                  # Bio/About Me page
-├── portfolio.html            # Portfolio page
-├── elevator-pitch.html       # Elevator Pitch page
-└── assets/
-    ├── css/
-    │   └── styles.css        # Main stylesheet
-    ├── js/
-    │   └── main.js           # Main JavaScript file
-    ├── img/
-    │   └── ...               # Project images, logos, etc.
-    └── docs/
-        └── resume.pdf        # CV/Résumé file
+```text
+.
+├── index.html        # Home page
+├── bio.html          # Bio/About Me page
+├── portfolio.html    # Portfolio page
+├── elevator-pitch.html # Elevator Pitch page
+├── assets/
+│   ├── css/
+│   │   └── styles.css  # Main stylesheet
+│   ├── js/
+│   │   └── main.js   # Main JavaScript file
+│   └── img/          # Project images, logos, etc.
+└── docs/
+    └── resume.pdf    # CV/Résumé file
 
 ## 5. Deployment
 The website is automatically deployed and hosted via GitHub Pages. Any push to the main branch of the GitHub repository triggers a new deployment, making updates efficient and simple.
